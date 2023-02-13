@@ -32,9 +32,9 @@ require_once __DIR__ .'/auth/src/register.php';
         </div>
 
            <div>
-            <label for="repeatpassword">Password Again</label>
-            <input type="password" name="reppeatpassword" id="repeatpassword" value="<?= $inputs['repeatpassword'] ?? '' ?>"
-            class="<?= error_class($errors,'repeatpassword') ?>">
+            <label for="password2">Password Again</label>
+            <input type="password" name="password2" id="password2" value="<?= $inputs['password2'] ?? '' ?>"
+            class="<?= error_class($errors,'password2') ?>">
         </div>
             <div>
             <label for="agree">
